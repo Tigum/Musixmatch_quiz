@@ -52,7 +52,7 @@ class QuestionaryScreen extends Component {
                     loading={this.props.loading}
                     width={1}
                 />
-                <h5 style={{fontWeight: 200}}>LOADING GAME...</h5>
+                <h5 style={{fontWeight: 200}}>GENERATING QUESTIONS...</h5>
             </div>
         )
     }
