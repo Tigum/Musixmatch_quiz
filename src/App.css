@@ -1,5 +1,8 @@
+@import '../node_modules/react-redux-toastr/lib/css/react-redux-toastr.min.css';
+
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -29,4 +32,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nameInput[placeholder] {
+  text-align: center;
+  color: #ff4b2f;
+  outline-width: 0;
+  background: transparent
+}
+
+.startButton {
+  outline-width: 0;
+}
+
+.confirmButton {
+  outline-width: 0;
+}
+
+.answersItem:hover {
+  color: #ff4b2f
+}
+
+.answersItem:active {
+  color: black
+}
+
+.answersItem:visited {
+  color: black
+}
+
+.answersItem {
+  color: black
+}
+
+ul {
+  list-style-type: none;
+}
+
+.rankingItem:hover {
+  color: #ff4b2f
+}
+
+.deleteLink:hover {
+  color: #ff4b2f
 }
