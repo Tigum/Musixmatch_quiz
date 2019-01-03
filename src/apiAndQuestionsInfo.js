@@ -44,7 +44,7 @@ export const artists = [
     'Lady Gaga',
     'James Morrison'
 ]
-export const apiKey = '87d34eacdc083f027143df511dcbb517'
+export const apiKey = '739d3751172543d0cb9b306049d4cbe2'
 export const questionsTypes = [
     'read-track-guess-artist',
     'read-artist-guess-track',
