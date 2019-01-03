@@ -38,7 +38,6 @@ class AnswerItems extends Component {
     }
 
     loadAnswers(answers) {
-        console.log('answers', answers)
         return answers.map((item, i) => {
             return <AnswerItem action={this.onSelectAnswer.bind(this)} item={item} key={i} id={i} />
         })
