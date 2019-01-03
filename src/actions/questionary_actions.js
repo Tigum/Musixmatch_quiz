@@ -260,7 +260,7 @@ export const loadQuestions = () => async (dispatch) => {
 
 const findArtist = async (artistName) => {
     try {
-        const url = `https://cors-anywhere.herokuapp.com/http://api.musixmatch.com/ws/1.1/track.search?q_artist=${artistName}&page_size=10&page=1&s_track_rating=desc&apikey=${apiKey}`
+        const url = `http://api.musixmatch.com/ws/1.1/track.search?q_artist=${artistName}&page_size=10&page=1&s_track_rating=desc&apikey=${apiKey}`
         const response = await axios.get(url, {
             mode: 'cors',
             headers: {
@@ -279,7 +279,7 @@ const findArtist = async (artistName) => {
 
 const findLyrics = async (trackName) => {
     try {
-        const url = `https://cors-anywhere.herokuapp.com/http://api.musixmatch.com/ws/1.1/matcher.lyrics.get?q_track=${trackName}&page_size=10&page=1&s_track_rating=desc&apikey=${apiKey}`
+        const url = `http://api.musixmatch.com/ws/1.1/matcher.lyrics.get?q_track=${trackName}&page_size=10&page=1&s_track_rating=desc&apikey=${apiKey}`
         const response = await axios.get(url, {
             mode: 'cors',
             headers: {
